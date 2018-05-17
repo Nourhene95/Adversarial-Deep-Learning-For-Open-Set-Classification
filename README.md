@@ -27,7 +27,7 @@ NB: Le nombre d'images rejetées qui sont classifiables est PLUS élevé que le 
 
 
 ## Propositions de solutions: 
-#### Faire plusieurs mise aléatoires des données (Chaffle) au lieu d'une seule:
+#### Faire plusieurs mise aléatoires des données (Shuffle) au lieu d'une seule:
 La base de données du rejecteur peut être biaisé par un ordre aléatoire. Soit la base n'était pas assez mélangée. 
 On peut aussi changer la graine (Seed) à chaque mise aléatoire de données.
 
