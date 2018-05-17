@@ -18,10 +18,10 @@ Cependant, ce n'était pas le cas.
 #### Nous avons alors regardé les images rejetées et leurs classifications: 
 Notre classifieur sans utiliser de rejecteur a une accuracy de 99,49% sur 10 000 exemples de test, soit 51 images mal-classées.
 Nous avons regardé alors le nombre d'images rejetées et la prédiction de notre classifieur sur ces images: 
-############ Le rejecteur à une sortie: 
+##### Le rejecteur à une sortie: 
 Il a rejeté 146 images sur 10 000, dont 5 seront mal-classées une fois passées par le classifieur. Soit un taux de réussite de 9,8% sur les images mal-classées. 
 NB: Le nombre d'images rejetées qui sont classifiables est très élevé. Ceci peut être expliqué par un seuil pas assez bas choisi pour le discriminateur. En effet On prend peut être de bons images (classifiables) et on les considère comme mauvaises.
-############ Le rejecteur à une sortie: 
+##### Le rejecteur à une sortie: 
 Il a rejeté 198 images sur 10 000, dont 7 seront mal-classées une fois passées par le classifieur. Soit un taux de réussite de 13,7% sur les images mal-classées. 
 NB: Le nombre d'images rejetées qui sont classifiables est PLUS élevé que le premier rejecteur. 
 
